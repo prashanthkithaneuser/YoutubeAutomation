@@ -83,7 +83,7 @@ public class TestCases extends ExcelDataProvider{ // Lets us read the data
                 //Thread.sleep(5000);
                 Wrappers.clickOnElementWrapper(driver, By.xpath("//a[text()='About']")); 
                 Thread.sleep(7000);
-                WebElement abouttext=driver.findElement(By.xpath("(//p[@class='lb-font-display-3 lb-font-color-text-primary'])[1]"));
+                WebElement abouttext=driver.findElement(By.xpath("//h1[@class='lb-font-display-1 lb-font-weight-700 lb-font-color-text-primary lb-font--no-crop']"));
                 System.out.println(abouttext.getText());
         }
 
